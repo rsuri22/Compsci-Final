@@ -1,4 +1,4 @@
-package Chapter_1;
+package Activities.Chapter_1;
 
 public class Activity_1_4 {
     /*Mr. Bob is going to return home for the day, but realizes that he has only 1 gallon of gasoline left in his tank. 
@@ -14,14 +14,7 @@ public class Activity_1_4 {
         int distance = 12;
         int initialDistance = 10;
         //Write Code Here
-        int amountLeft = gallons * mpg - initialDistance;
 
-        while (amountLeft > 0){
-            amountLeft -= distance;
-            count += 1;
-        }
-        count /= 2;
-        System.out.println("Bob can drive to work and back " + count + " times");
 
     }
 }

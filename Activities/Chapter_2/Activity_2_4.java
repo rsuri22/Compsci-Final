@@ -1,4 +1,4 @@
-package Chapter_2;
+package Activities.Chapter_2;
 
 public class Activity_2_4 {
     /* On his way home from work, Bob decides to temproarily attach his fitbit to the wheel of his car in an attempt 
@@ -9,17 +9,14 @@ public class Activity_2_4 {
     public static void main(String[] args) {
         double radius = 1;
         double distance = 12;
+        int steps = 0;
         
         //Write Code Here
-        double circumference = 2 * 3.14 * radius;
-        double distanceFeet = 12 * 5280;
-        int steps = 0;
-        for (int i = 0; i < distanceFeet; i += circumference) {
-            System.out.println(i);
-            steps++;
-        }
+
         System.out.println("Bob will get " + steps + " steps as a result of his cheating");
         System.out.println("Will Bob get the 10,000 steps he needs?");
+
+        //Fill in all the choices and blanks to arrive at the correct result
         System.out.println("YES/NO, Bob will get _____ steps which is LESS/MORE than 10,000");
 
     }

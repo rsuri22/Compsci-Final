@@ -1,4 +1,4 @@
-package Chapter_3;
+package Activities.Chapter_3;
 
 public class Activity_3_1 {
     /*Mr. Bob has discovered that using these loops, he can use the substring methods to search through the characters of 
@@ -7,11 +7,7 @@ public class Activity_3_1 {
         String input = "I like to eat chicken nuggets eheheh";
         int count = 0;
         //Write Code Here:
-        for (int i = 0; i < input.length(); i++) {
-            if (input.substring(i, i + 1).equals(" ")){
-                count++;
-            }
-        }
+
         System.out.println("The string contains " + count + " spaces");
     }
 }
