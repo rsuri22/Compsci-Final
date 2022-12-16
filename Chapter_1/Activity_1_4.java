@@ -14,13 +14,13 @@ public class Activity_1_4 {
         int distance = 12;
         int initialDistance = 10;
         //Write Code Here
-        // int amountLeft = gallons * mpg - initialDistance;
+        int amountLeft = gallons * mpg - initialDistance;
 
-        // while (amountLeft > 0){
-        //     amountLeft -= distance;
-        //     count += 1;
-        // }
-        //count /= 2;
+        while (amountLeft > 0){
+            amountLeft -= distance;
+            count += 1;
+        }
+        count /= 2;
         System.out.println("Bob can drive to work and back " + count + " times");
 
     }

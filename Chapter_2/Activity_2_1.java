@@ -3,9 +3,9 @@ public class Activity_2_1 {
     /*Perform the activity in task 1_1, but use a for loop instead of a while loop to complete it. */
     public static void main(String[] args) {
         //Write Code Here
-        // for (int i = 0; i < 7; i++){
-        //     feedKids();
-        // }
+        for (int i = 0; i < 7; i++){
+            feedKids();
+        }
     }
 
     public static void feedKids(){

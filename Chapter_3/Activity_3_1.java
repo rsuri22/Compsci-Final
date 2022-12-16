@@ -7,11 +7,11 @@ public class Activity_3_1 {
         String input = "I like to eat chicken nuggets eheheh";
         int count = 0;
         //Write Code Here:
-        // for (int i = 0; i < input.length(); i++) {
-        //     if (input.substring(i, i + 1).equals(" ")){
-        //         count++;
-        //     }
-        // }
+        for (int i = 0; i < input.length(); i++) {
+            if (input.substring(i, i + 1).equals(" ")){
+                count++;
+            }
+        }
         System.out.println("The string contains " + count + " spaces");
     }
 }
